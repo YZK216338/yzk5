@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yzk5.MainActivity">
+    <EditText
+        android:id="@+id/et_targetWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="268dp"
+        android:layout_height="50dp"
+        android:text="CONNECT"
+        android:id="@+id/button"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/et_targetWeb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:onClick="toWebBrowers"
+
+        />
+
+</RelativeLayout>
